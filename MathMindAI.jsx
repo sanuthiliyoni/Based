@@ -123,7 +123,6 @@ const diffColor = {
   Challenge: "text-red-600 bg-red-50 border-red-200",
 };
 
-/* the canned "AI marked" result, matching the worked example in the brief */
 const markedSteps = [
   { n: 1, verdict: "correct", text: "Differentiated 3x² correctly to 6x." },
   { n: 2, verdict: "wrong", text: "Derivative of 5x should be 5, not 7.", correction: "d/dx(5x) = 5" },
