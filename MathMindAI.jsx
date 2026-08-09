@@ -10,13 +10,6 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, LineChart, Line
 } from "recharts";
 
-/* ---------------------------------------------------------
-   Design tokens
-   Palette: ink (near-black indigo) / violet-blue gradient system
-   Signature: the "marking ribbon" — a vertical graded stripe that
-   runs down solution steps, coloring each step correct/wrong/partial,
-   echoing how a real exam script gets annotated in the margin.
---------------------------------------------------------- */
 const palette = {
   bgLight: "#F6F5FB",
   bgDark: "#0E0B1A",
