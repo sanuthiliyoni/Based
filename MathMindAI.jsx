@@ -454,7 +454,7 @@ function HomeView({ dark, setView, plan, togglePlan }) {
 
 /* ---------------------------------------------------------
    AI MARKER VIEW
---------------------------------------------------------- */
+--------- */
 function MarkerView({ dark }) {
   const [stage, setStage] = useState("upload"); // upload -> loading -> result
   const fileRef = useRef(null);
